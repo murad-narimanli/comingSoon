@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<head>
+    <title>Tech city</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/logo2.png"/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div class="size1 bg0 where1-parent animated fadeIn">
+    <div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2"
+         style="background-image: url('images/bg01.jpg');">
+        <div class="wsize2 flex-w flex-c-m cd100 js-tilt">
+            <div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+                <span class="l2-txt1 p-b-9 days">5</span>
+                <span class="s2-txt4">Days</span>
+            </div>
+            <div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+                <span class="l2-txt1 p-b-9 hours">17</span>
+                <span class="s2-txt4">Hours</span>
+            </div>
+            <div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+                <span class="l2-txt1 p-b-9 minutes">50</span>
+                <span class="s2-txt4">Minutes</span>
+            </div>
+            <div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+                <span class="l2-txt1 p-b-9 seconds">39</span>
+                <span class="s2-txt4">Seconds</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="size3 d-flex justify-content-center align-items-center i respon1">
+        <div class="wrap-pic1 m-4" style="transform: scale(1.5)">
+            <img src="images/icons/logo.png" alt="LOGO">
+            <h4 class='text-center font-weight-bold' style='color: #00d3d4'>Coming soon !!!!!</h4>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/countdowntime/moment.min.js"></script>
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<script>
+    $('.cd100').countdown100({
+        endtimeYear: 0,
+        endtimeMonth: 0,
+        endtimeDate: 7,
+        endtimeHours: 20,
+        endtimeMinutes: 0,
+        endtimeSeconds: 0,
+        timeZone: ""
+    });
+</script>
+<script src="vendor/tilt/tilt.jquery.min.js"></script>
+<script>
+    $('.js-tilt').tilt({
+        scale: 1.1
+    })
+</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+</script>
+</body>
+
+</html>
